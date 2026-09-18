@@ -167,7 +167,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\capture-portal.ps1 -Url http:
 | `interfaceName` | 无线网卡名（如 `WLAN`） | 留空让 netsh 自动选 |
 | `connectTimeoutSeconds` | 单次连接 SSID 的超时 | 默认 45 |
 | `overallTimeoutMinutes` | 整轮重试的总时长 | 默认 15 |
-| `retryIntervalSeconds` | 每轮间隔 | 默认 10 |
+| `retryIntervalSeconds` | 每轮间隔 | 默认 5 |
 | `browser.url` | 手工指定门户地址 | 留空自动探测，**推荐留空** |
 | `browser.fallbackUrl` | 探测不到门户时的兜底地址 | 打开它会被运营商劫持跳到认证页 |
 | `browser.reopenCooldownMinutes` | 同一次开机内不重复打开同一门户 | 防止开一堆标签页 |
