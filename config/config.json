@@ -1,0 +1,78 @@
+{
+  "_说明": "复制为 config.json 后修改。任何字段都可以省略，省略即使用内置默认值（见 src/CampusNet.psm1 的 Get-CampusDefaultConfig）。",
+
+  "_ssid": "要连接的无线网络名，按优先级排列；第一个是首选，后面的作为备用（例如 5G 信号弱时回落到 2.4G）",
+  "ssid": [""],
+
+  "_profileName": "Windows 无线配置文件名，通常与 SSID 相同；留空自动取 ssid 的第一项",
+  "profileName": "",
+
+  "_interfaceName": "无线网卡接口名（如 WLAN），留空则让 netsh 自动选择",
+  "interfaceName": "",
+
+  "connectTimeoutSeconds": 45,
+  "overallTimeoutMinutes": 15,
+  "retryIntervalSeconds": 10,
+
+  "browser": {
+    "_说明": "用系统默认浏览器打开认证门户。本机使用 eportal 后台登录，已关闭：脚本运行全程不弹浏览器；如登录失败想保留浏览器兜底，改回 true",
+    "enabled": false,
+    "_url": "手工指定门户地址；留空则自动探测（推荐留空）",
+    "url": "",
+    "_fallbackUrl": "探测不到门户时的兜底地址：打开它会触发运营商强制跳转到认证页",
+    "fallbackUrl": "http://www.msftconnecttest.com/connecttest.txt",
+    "_reopenCooldownMinutes": "同一次开机内，同一门户多少分钟内不重复打开（避免开一堆标签页）",
+    "reopenCooldownMinutes": 5,
+    "openDelaySeconds": 2,
+    "_waitAfterOpenSeconds": "打开浏览器后，等待多久轮询是否已认证成功（在此期间登录完成就直接退出）",
+    "waitAfterOpenSeconds": 40
+  },
+
+  "_probes": "联网探测地址：命中任一条件即认为已经联网。expect=必须出现的内容；expectStatus=期望的状态码",
+  "probes": [
+    { "url": "http://www.msftconnecttest.com/connecttest.txt", "expect": "Microsoft Connect Test", "expectStatus": 0 },
+    { "url": "http://connectivitycheck.gstatic.com/generate_204", "expect": "", "expectStatus": 204 }
+  ],
+
+  "autoLogin": {
+    "_说明": "可选：直接向门户提交账号密码，实现真正的零点击登录（完全不弹浏览器）。不填就只走浏览器方式。",
+    "_mode": "eportal = 锐捷 ePortal 门户专用（/eportal/index.jsp，联通校园网），自动复现页面 doauthen 的双重编码 POST 到 InterFace.do?method=login；portal-form = 每次登录前先抓一遍门户登录页，拿当次的一次性令牌再提交（带 paramStr 的门户必须用这个）；static = 用下面 loginUrl + form 直接提交（只适合没有令牌的门户）",
+    "enabled": true,
+    "mode": "eportal",
+
+    "_portalUrl": "portal-form 用：门户地址，留空 = 用探测到的地址（推荐留空）",
+    "portalUrl": "",
+
+    "_submitUrl": "portal-form 用：真实提交地址，可写相对路径（如 /authServlet），会按门户地址补全；留空 = 用表单 action",
+    "submitUrl": "",
+
+    "username": "",
+    "password": "",
+
+    "_字段名": "留空则自动识别；识别不准时手工指定，例如联通校园网门户常见 UserName / PassWord",
+    "usernameField": "",
+    "passwordField": "",
+
+    "_extraFields": "可选：需要额外固定提交的字段，例如 { \"serviceType\": \"301\" }",
+    "extraFields": {},
+    "_useReferer": "提交时带上 Referer（有些门户会校验）",
+    "useReferer": true,
+    "_maxAttempts": "安全阀：一轮最多尝试几次自动登录。学校门户连续失败若干次会锁账号，别设太大",
+    "maxAttempts": 3,
+
+    "_以下仅 static 模式使用": "",
+    "loginUrl": "",
+    "method": "POST",
+    "contentType": "application/x-www-form-urlencoded",
+    "preRequestUrl": "",
+    "form": {},
+    "extraHeaders": {},
+    "timeoutSeconds": 20
+  },
+
+  "logging": {
+    "_directory": "日志目录，留空默认 <项目目录>\\logs",
+    "directory": "",
+    "keepDays": 14
+  }
+}

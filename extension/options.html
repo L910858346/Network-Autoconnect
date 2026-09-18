@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>校园网门户自动登录 - 设置</title>
+<style>
+  body { font-family: "Microsoft YaHei", system-ui, sans-serif; max-width: 640px; margin: 32px auto; padding: 0 16px; color: #222; }
+  h1 { font-size: 20px; }
+  label { display: block; margin: 14px 0 4px; font-weight: 600; }
+  input[type=text], input[type=password], textarea { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 6px; font-family: inherit; }
+  textarea { height: 72px; }
+  .hint { color: #666; font-size: 12px; margin-top: 4px; }
+  button { margin-top: 18px; padding: 10px 22px; border: 0; border-radius: 6px; background: #1677ff; color: #fff; font-size: 15px; cursor: pointer; }
+  .row { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  #msg { margin-left: 12px; color: #0a0; }
+</style>
+</head>
+<body>
+<h1>校园网门户自动登录</h1>
+<p class="hint">账号密码只保存在本机浏览器存储（chrome.storage.local）中，不会上传任何服务器；但它是明文的，请自行评估风险。</p>
+
+<label class="row"><input type="checkbox" id="enabled"> 启用自动填充与自动提交</label>
+
+<label for="username">账号</label>
+<input type="text" id="username" placeholder="学号 / 手机号">
+
+<label for="password">密码</label>
+<input type="password" id="password" placeholder="门户登录密码">
+
+<label for="urlPatterns">门户 URL 特征（每行一个正则，命中才动作）</label>
+<textarea id="urlPatterns"></textarea>
+<div class="hint">默认已包含 portal / wlan / unicom / 10010 / 内网网段等特征。把你学校的门户域名加进去更保险。</div>
+
+<label for="submitSelectors">登录按钮选择器（每行一个，可留默认）</label>
+<textarea id="submitSelectors"></textarea>
+
+<label class="row"><input type="checkbox" id="autoSubmit"> 自动点击登录</label>
+
+<button id="save">保存</button><span id="msg"></span>
+
+<script src="options.js"></script>
+</body>
+</html>

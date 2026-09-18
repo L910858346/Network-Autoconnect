@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "校园网门户自动登录（联通）",
+  "version": "1.0.0",
+  "description": "在校园网认证门户页面自动填入账号密码并提交，配合开机自启脚本实现零点击上网。",
+  "permissions": ["storage"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "all_frames": true,
+      "run_at": "document_idle",
+      "js": ["content.js"]
+    }
+  ],
+  "options_ui": { "page": "options.html", "open_in_tab": true },
+  "action": { "default_title": "校园网门户自动登录" }
+}

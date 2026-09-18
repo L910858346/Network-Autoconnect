@@ -1,0 +1,63 @@
+
+门户地址      : http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef
+最终地址      : http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef
+HTTP 状态     : 200
+框架层级      : 0
+页面已保存    : D:\cmcc-autoconnect-main\logs\portal-20260918-085029-814-d0.html
+
+表单提交地址  : http://10.1.100.2/eportal/validateHaijun.do?method=manage
+提交方法      : POST
+账号字段      : username
+密码字段      : pwd
+
+页面上的表单字段：
+  - username_tip               type=text       value=用户名
+  - username                   type=text       value=
+  - strTypeAu                  type=hidden     value=
+  - uuidQrCode                 type=hidden     value=
+  - authorMode                 type=hidden     value=
+  - pwd_tip                    type=text       value=密码
+  - pwd                        type=password   value=
+  - operatorUserId_tip         type=text       value=运营商账号
+  - operatorUserId             type=text       value=
+  - operatorPwd_tip            type=text       value=运营商密码
+  - operatorPwd                type=password   value=
+  - validCode_tip              type=text       value=验证码
+  - validCode                  type=text       value=
+  - passwordEncrypt            type=hidden     value=false
+  - publicKeyExponent          type=hidden     value=
+  - publicKeyModulus           type=hidden     value=
+  - userIdHj                   type=hidden     value=
+  - passHj                     type=hidden     value=
+检测到锐捷 ePortal 门户（InterFace.do?method=login），已自动选择 eportal 模式（无需字段名/提交地址）。
+
+--------- 建议写入 config.json 的 autoLogin 段 ---------
+{
+    "enabled":  false,
+    "mode":  "eportal",
+    "portalUrl":  "",
+    "submitUrl":  "",
+    "username":  "",
+    "password":  "",
+    "usernameField":  "",
+    "passwordField":  "",
+    "extraFields":  {
+
+                    },
+    "useReferer":  true,
+    "loginUrl":  "",
+    "method":  "POST",
+    "contentType":  "application/x-www-form-urlencoded",
+    "preRequestUrl":  "",
+    "form":  {
+
+             },
+    "extraHeaders":  {
+
+                     },
+    "timeoutSeconds":  20
+}
+--------------------------------------------------------
+把 username / password 填上，把 enabled 改成 true，就能零点击自动登录。
+模式说明：eportal = 锐捷 ePortal 专用：自动复现页面 doauthen 的双重编码提交（userId/password/queryString）。
+

@@ -1,0 +1,149 @@
+﻿[2026-09-18 07:53:21][DEBUG] ------------------------------------------------------------
+[2026-09-18 07:53:21][INFO] 校园网自动连接启动（配置：D:\下载\cmcc-autoconnect-main\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 07:53:21][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:21][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:21][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 07:53:21][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 07:53:21][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:21][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:24][OK] 网络已可用：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 07:53:24][OK] 校园网连接完成，退出。
+[2026-09-18 07:53:48][DEBUG] ------------------------------------------------------------
+[2026-09-18 07:53:48][INFO] 校园网自动连接启动（配置：D:\下载\cmcc-autoconnect-main\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 07:53:48][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:48][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:48][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 07:53:48][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 07:53:48][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:48][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:53:51][OK] 网络已可用：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 07:53:51][OK] 校园网连接完成，退出。
+[2026-09-18 07:54:28][DEBUG] ------------------------------------------------------------
+[2026-09-18 07:54:28][INFO] 校园网自动连接启动（配置：D:\下载\cmcc-autoconnect-main\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 07:54:29][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:29][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:29][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 07:54:29][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 07:54:29][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:29][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:31][INFO] 门户地址：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef （探测结果：http://www.msftconnecttest.com/connecttest.txt 返回非预期内容（疑似门户劫持））
+[2026-09-18 07:54:33][OK] 已用系统默认浏览器打开门户页面：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef
+[2026-09-18 07:54:50][DEBUG] ------------------------------------------------------------
+[2026-09-18 07:54:50][INFO] 校园网自动连接启动（配置：D:\下载\cmcc-autoconnect-main\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 07:54:50][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:50][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:50][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 07:54:50][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 07:54:50][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:50][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:54:52][INFO] 门户地址：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef （探测结果：http://www.msftconnecttest.com/connecttest.txt 返回非预期内容（疑似门户劫持））
+[2026-09-18 07:54:52][INFO] 同一门户 0.4 分钟前已打开过，冷却 10 分钟内不重复打开
+[2026-09-18 07:55:25][DEBUG] ------------------------------------------------------------
+[2026-09-18 07:55:25][INFO] 校园网自动连接启动（配置：D:\下载\cmcc-autoconnect-main\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 07:55:25][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:55:25][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:55:25][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 07:55:25][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 07:55:25][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:55:25][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 07:55:27][INFO] 门户地址：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef （探测结果：http://www.msftconnecttest.com/connecttest.txt 返回非预期内容（疑似门户劫持））
+[2026-09-18 07:55:27][INFO] 同一门户 0.9 分钟前已打开过，冷却 10 分钟内不重复打开
+[2026-09-18 08:02:15][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:02:15][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:02:16][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 08:02:16][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 08:02:16][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 08:02:16][WARN] 当前无线：GCXY.EDU-5.8，需要重新连接
+[2026-09-18 08:02:16][WARN] 未找到无线配置文件 [ChinaUnicom-5G]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 08:02:16][WARN] 未找到无线配置文件 [ChinaUnicom]，跳过该网络（可用 scripts\prepare-wifi.ps1 导入）
+[2026-09-18 08:02:18][INFO] 门户地址：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef （探测结果：http://www.msftconnecttest.com/connecttest.txt 返回非预期内容（疑似门户劫持））
+[2026-09-18 08:02:20][OK] 已用系统默认浏览器打开门户页面：http://10.1.100.2/eportal/index.jsp?wlanuserip=c1a3321bfa07c914c7e31848e4ef60a5&wlanacname=b32e8510f1ad5c807dcab23ec3da710a&ssid=&nasip=3cc91d4609b804230a2ba4478a3af450&snmpagentip=&mac=6645ea4252965625ec9fb85a39be451c&t=wireless-v2&url=1dab4b24d9fdf5783df2e6633fe368dd88d54d475fc76127b200b2b21983dc00f54b4d9ab4b627b33a95dfe43a69f78d&apmac=&nasid=b32e8510f1ad5c807dcab23ec3da710a&vid=7914beb85dd8b654&port=f5c85f60a090d4cc&nasportid=524f1b5ac6ea58bc1292f6a965ce65aaec19581dd3dce6861d179b74860f8c91a405a1aa7d4f13ef
+[2026-09-18 08:19:29][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:19:29][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:19:29][OK] 无线已连接目标网络 GCXY.EDU-5.8
+[2026-09-18 08:19:29][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 08:19:29][INFO] 自动登录尝试 1 / 3
+[2026-09-18 08:19:29][INFO] ePortal 模式：提交到 http://10.1.100.2/eportal/InterFace.do?method=login（queryString 共 477 字符）
+[2026-09-18 08:19:29][INFO] ePortal 登录接口返回：{"userIndex":"33636339316434363039623830343233306132626134343738613361663435305f31302e3130322e35322e365f323032353033313730323332","result":"success","message":"","forwordurl":null,"keepaliveInterval":0,"validCodeUrl":""}
+[2026-09-18 08:19:29][OK] ePortal 登录接口返回 success。
+[2026-09-18 08:19:34][OK] 门户自动登录成功：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 08:28:50][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:28:50][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:28:50][OK] 无线已连接目标网络 GCXY.EDU-5.8
+[2026-09-18 08:28:50][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 08:28:50][OK] 网络已可用：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 08:28:50][OK] 校园网连接完成，退出。
+[2026-09-18 08:31:04][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:31:04][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:31:05][INFO] 正在连接无线网络 GCXY.EDU-5.8 ...
+[2026-09-18 08:31:08][OK] 已连接到 GCXY.EDU-5.8
+[2026-09-18 08:31:08][INFO] 第 1 次检查（剩余 897 秒）
+[2026-09-18 08:31:08][INFO] 自动登录尝试 1 / 3
+[2026-09-18 08:31:08][INFO] ePortal 模式：提交到 http://10.1.100.2/eportal/InterFace.do?method=login（queryString 共 477 字符）
+[2026-09-18 08:31:09][INFO] ePortal 登录接口返回：{"userIndex":"33636339316434363039623830343233306132626134343738613361663435305f31302e3130322e35322e365f323032353033313730323332","result":"success","message":"","forwordurl":null,"keepaliveInterval":0,"validCodeUrl":""}
+[2026-09-18 08:31:09][OK] ePortal 登录接口返回 success。
+[2026-09-18 08:31:20][OK] 门户自动登录成功：http://connectivitycheck.gstatic.com/generate_204 返回 HTTP 204（预期值）
+[2026-09-18 08:42:58][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:42:58][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:42:59][INFO] 正在连接无线网络 GCXY.EDU-5.8 ...
+[2026-09-18 08:43:02][OK] 已连接到 GCXY.EDU-5.8
+[2026-09-18 08:43:02][INFO] 第 1 次检查（剩余 897 秒）
+[2026-09-18 08:43:26][INFO] 自动登录尝试 1 / 3
+[2026-09-18 08:43:50][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:43:50][WARN] 门户地址里没有 queryString（wlanuserip / wlanacname / mac 等），ePortal 登录无法提交，放弃（请确认当前处于未认证状态后重试）。
+[2026-09-18 08:43:53][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:44:03][INFO] 第 2 次检查（剩余 835 秒）
+[2026-09-18 08:44:03][INFO] 自动登录尝试 2 / 3
+[2026-09-18 08:44:03][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:44:03][WARN] 门户地址里没有 queryString（wlanuserip / wlanacname / mac 等），ePortal 登录无法提交，放弃（请确认当前处于未认证状态后重试）。
+[2026-09-18 08:44:06][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:44:16][INFO] 第 3 次检查（剩余 822 秒）
+[2026-09-18 08:44:40][INFO] 自动登录尝试 3 / 3
+[2026-09-18 08:44:40][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:44:40][WARN] 门户地址里没有 queryString（wlanuserip / wlanacname / mac 等），ePortal 登录无法提交，放弃（请确认当前处于未认证状态后重试）。
+[2026-09-18 08:44:43][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:44:53][INFO] 第 4 次检查（剩余 785 秒）
+[2026-09-18 08:44:53][ERROR] 自动登录已连续失败 3 次，为避免账号被锁定，本轮不再提交登录；浏览器方式已关闭，仅持续复检联网状态直到超时。
+[2026-09-18 08:45:08][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:45:18][INFO] 第 5 次检查（剩余 760 秒）
+[2026-09-18 08:45:21][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:45:37][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:45:37][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:45:37][OK] 无线已连接目标网络 GCXY.EDU-5.8
+[2026-09-18 08:45:37][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 08:45:37][INFO] 自动登录尝试 1 / 3
+[2026-09-18 08:45:37][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:45:37][WARN] 门户地址里没有 queryString（wlanuserip / wlanacname / mac 等），ePortal 登录无法提交，放弃（请确认当前处于未认证状态后重试）。
+[2026-09-18 08:45:40][WARN] 自动登录后仍未联网，浏览器方式已关闭，等待下一轮复检
+[2026-09-18 08:46:17][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:46:27][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:46:37][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:47:04][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:47:14][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:47:24][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 08:47:24][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:47:35][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 08:47:35][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 08:51:48][DEBUG] ------------------------------------------------------------
+[2026-09-18 08:51:48][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 08:51:48][OK] 无线已连接目标网络 GCXY.EDU-5.8
+[2026-09-18 08:51:48][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 08:51:48][INFO] 自动登录尝试 1 / 3
+[2026-09-18 08:51:48][INFO] ePortal 模式：提交到 http://10.1.100.2/eportal/InterFace.do?method=login（queryString 共 477 字符）
+[2026-09-18 08:51:49][INFO] ePortal 登录接口返回：{"userIndex":"33636339316434363039623830343233306132626134343738613361663435305f31302e3130322e35322e365f323032353033313730323332","result":"success","message":"","forwordurl":null,"keepaliveInterval":0,"validCodeUrl":""}
+[2026-09-18 08:51:49][OK] ePortal 登录接口返回 success。
+[2026-09-18 08:51:52][OK] 门户自动登录成功：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 12:15:49][DEBUG] ------------------------------------------------------------
+[2026-09-18 12:15:49][INFO] 校园网自动连接启动（配置：D:\cmcc-autoconnect-main\config\config.json）
+[2026-09-18 12:15:49][OK] 无线已连接目标网络 GCXY.EDU-5.8
+[2026-09-18 12:15:49][INFO] 第 1 次检查（剩余 900 秒）
+[2026-09-18 12:15:50][OK] 网络已可用：http://www.msftconnecttest.com/connecttest.txt 返回预期内容 (Microsoft Connect Test)
+[2026-09-18 12:15:50][OK] 校园网连接完成，退出。
+[2026-09-18 12:44:25][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 12:44:25][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 12:44:38][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 12:44:38][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 12:44:48][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 12:44:48][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
+[2026-09-18 12:44:59][WARN] 当前已经联网，运营商不会跳转到认证门户。
+[2026-09-18 12:44:59][WARN] 未能探测到门户地址，改用兜底地址试探：http://www.msftconnecttest.com/connecttest.txt
